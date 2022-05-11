@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Anuj's Personal Site</title>
+</head>
+
+<body>
+  <!-- to make image and some description in parallel to it use table for it and an attribut cellspacing that create space between cells-->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="D:\b396c57c-5b8e-491b-8549-8275354b1851__01.jpg" alt="anuj profile picture" height="200" width="200"></td>
+      <td>
+        <h1>Anuj Beniwal</h1>
+        <p><em>Student at <strong><a href="https://www.iitism.ac.in/iitismnew/">IIT(ISM), Dhanbad</a></strong></em></p>
+        <p>I am a student of Mathematics and Computing at IIT(ISM), Dhanbad. I 💚 to play video games.</p>
+      </td>
+    </tr>
+  </table>
+  <!-- image is a selg closing tag attributes are use in it ie like source of the image
+  ie like url (img from internet) or path (img from local computer)
+  alt is used to given of what the image is all about-->
+  <!--<img src="D:\b396c57c-5b8e-491b-8549-8275354b1851__01.jpg" alt="anuj profile picture" height="200" width="200">-->
+  <!-- adding heading -->
+  <!--<h1>Anuj Beniwal</h1>-->
+  <!-- making words italic and bold using em and strong in a paragraph using p-->
+  <!--anchor(<a href=""></a>) tag creates hyperlink to other web pages-->
+  <!--<p><em>Student at <strong><a href="https://www.iitism.ac.in/iitismnew/">IIT(ISM), Dhanbad</a></strong></em></p>
+  <p>I am a student of Mathematics and Computing at IIT(ISM), Dhanbad. I 💚 to play video games.</p>-->
+  <!-- hr for horizontal line -->
+  <hr size="2" color="grey">
+  <h3>Eduction</h3>
+  <!--unordered bullet point list using ul and inside this element use li for list -->
+  <ul>
+    <li>Secondary : <em><strong>SNPS</strong></em></li>
+    <li>Senior Secondary : <em><strong>SNPS</strong></em></li>
+    <li>Graduation: <a href="https://www.iitism.ac.in/iitismnew/">IIT(ISM), Dhanbad</a>
+      <!-- to use list inside a list use ul for unordered list or for the tab
+      or fourspace the use li inside ul for the list needed-->
+      <!--<ul>
+        <li>Courses completed:
+          <!--for ordered list use ol like for 1.,2.,3.,..... so on by default natural numbers if
+          to use roman numbers use attribute type='i'//for roman numbers
+          to start from a particular counting like number first element as 101 then attribute start="101"-->
+          <!--<ol start='101'>
+            <li>Data Structurer and Algorithm</li>
+            <li>Object Oriented Programming</li>
+          </ol>
+        </li>
+      </ul>-->
+    </li>
+  </ul>
+  <hr size="2" color="grey">
+  <h3>Education Experience</h3>
+  <!-- to create a table use tag <table></table> and to add table rows use <tr></tr> ans to
+  to add table cell(column) use command <td></td>-->
+  <!--here we added a table that conatins my education years with examination
+  4 rows with each containing two cells or columns-->
+  <!-- there are also head and body in table like html with tags thead and tbody
+  & <tfoot> is the table foot ie thelast element like sum of the columnn of a table and like that
+  th fro row heads-->
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Education</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2019-2024</td>
+        <td>Pursuing Integrated Master of Technology in Mathematics and Computing</td>
+      </tr>
+      <tr>
+        <td>2018-2019</td>
+        <td>Prepared for JEE(Joint Entrance Examination)</td>
+      </tr>
+      <tr>
+        <td>2017-2018</td>
+        <td>Passed my Senior Secondary Examination</td>
+      </tr>
+      <tr>
+        <td>2015-2016</td>
+        <td>Passed my Secondary Examination</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr size="2" color="grey">
+  <h3>Skills</h3>
+  <!-- table in table and using border in outer table makes the table in table cell as a single cell-->
+  <table cellspacing="10">
+    <tr>
+      <td>C++</td>
+      <td>★★★★☆</td>
+    </tr>
+    <tr>
+      <td>HTML(5)</td>
+      <td>★★★☆☆</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>★★★☆☆</td>
+    </tr>
+  </table>
+
+  <hr size="2" color="grey">
+  <!-- linking new html to main page using the html as link and specify a name to it-->
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact_me.html">Contact Me</a>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <ul>
+      <li>E-mail: anujbeniwal@gmail.com</li>
+      <li>Phone No: +919999900000</li>
+    </ul>
+    <hr size="2" color="grey">
+    <form action="mailto:anujbeniwal0007@gmail.com" method="post" enctype="text/plain"><!--without encoding type enctype the text we got on mail as input from here is jumbled and contain symbols like%+...-->
+      <label>Your Name:</label><!--like your name-->
+      <input type="text" name="yourName" value=""><!--input the vale aginst the label and the name attribute takes the text as (read as during mail)  yourName=input same in the rest cases ie, in yourEmail and yourMessage--><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="8" cols="31"></textarea><br> <!--textarea creates a rectangular of square box in ehich a user can write some text-->
+      <input type="Submit" name=""><!--use tag input for Submit button and remove vale attribute from it-->
+    </form>
+  </body>
+</html>
